@@ -1,0 +1,100 @@
+body{
+  background : url("../images/The Anthropomorphic Cabinet.jpg") top/cover no-repeat fixed ;
+  color: white:
+}
+
+h1{
+  background-color: #98644e;
+  color: black;
+  padding: 30px;
+  padding-right: 420px;
+  margin-left: 40px;
+  border: 15px double #62433f;
+  display: table;
+}
+
+footer{
+  background-color: #98644e;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 400px;
+    border: 10px double #62433f;
+  /*position: fixed;
+  right: 0;
+  bottom: 0;
+  left:0;*/
+}
+figure{
+border: 15px double #62433f;
+background-color: #98644e;
+padding: 5px;
+margin: 5px;
+display: table;
+}
+
+/*header{
+    background-color: #98644e;
+    color: white;
+    padding: 30px;
+    margin: 0px;
+}*/
+
+/*.navbar-primary ul{
+margin-bottom: 5px;
+  background-color: #62433f;
+}
+
+.navbar-primary ul li{
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+}
+
+.navbar-primary a{
+  text-decoration: none;
+  color: white;
+}*/
+.navbar-nav a{
+  color: white;
+}
+.navbar-nav li > a:hover{
+  background-color: transparent;
+  color: white;
+  border: 5px solid #B8860B;
+  border-radius: 15px;
+}
+.center-in-container{
+  margin: auto;
+}
+
+.table-hover>tbody>tr:hover{
+  color: black;
+}
+
+caption{
+  color: white;
+  font-size: 1.5em;
+}
+
+.thumbnails img{
+  width: 150px;
+  height: 100px;
+}
+.checkout-form{
+  width: 500px;
+  margin: 10% auto;
+}
+.checkout-form legend{
+  color: white;
+  text-align: center;
+}
+.checkout-form button{
+  border-color: white;
+  background-color: #98644e;
+}
+.checkout-form button:hover{
+  background-color: #62433f;
+  border-color: #62433f;
+}
+.no-padding{
+  padding: 0;
+}
